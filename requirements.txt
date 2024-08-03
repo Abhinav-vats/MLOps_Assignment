@@ -6,4 +6,5 @@ seaborn
 pandas
 xgboost
 catboost
+dill
 -e .
