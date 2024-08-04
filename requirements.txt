@@ -1,6 +1,7 @@
 pandas
 numpy
 seaborn
+sklearn
 matplotlib
 seaborn
 pandas
