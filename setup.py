@@ -3,7 +3,8 @@ from typing import List
 
 HYPHEN_E_DOT = '-e .'
 
-def get_requirements(file_path:str)-> List[str]:
+
+def get_requirements(file_path: str) -> List[str]:
     '''
     This function will return list of requirements
     '''
@@ -15,13 +16,13 @@ def get_requirements(file_path:str)-> List[str]:
 
         if HYPHEN_E_DOT in requirements:
             requirements.remove(HYPHEN_E_DOT)
-    
     return requirements
+
 
 setup(
     name='MLOPs_assignment',
     version='0.0.1',
     author='Abhinav Kumar Singh,...',
-    packages= find_packages(),
+    packages=find_packages(),
     install_requires=get_requirements('requirements.txt')
 )
