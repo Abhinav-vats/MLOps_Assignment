@@ -25,7 +25,7 @@ class DataIngestion:
     def initiate_data_ingestion(self):
         logging.info("Entered the data ingestion component")
         try:
-            df = pd.read_csv('inotebook\stud.csv')
+            df = pd.read_csv('inotebook\\stud.csv')
             logging.info('Reading the dataset as  dataframe')
 
             os.makedirs(os.path.dirname(self.ingestion_config.train_data_path),
