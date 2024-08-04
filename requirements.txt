@@ -7,4 +7,5 @@ pandas
 xgboost
 catboost
 dill
+flask
 -e .
